@@ -23,9 +23,6 @@ public class ConvertStringToUpperCase {
 	     
 	     //removing duplicate string and converting into lowercase
 	     list.stream().map(m->m.toLowerCase()).collect(Collectors.toSet()).forEach(m->System.out.print(m+ ", "));;
-
-
-	     
-	}
+        }
 
 }//
